@@ -6,7 +6,9 @@ const Header = ({ title, onAdd, showAdd }) => {
   return (
     <header className="header">
       <h1>{title}</h1>
-      {/* <h3>process.env.EMAIL_ALUNO</h3> */}
+      {
+        /* <h3>process.env.EMAIL_ALUNO</h3> */
+      }
       {location.pathname === "/" && (
         <Button
           color={showAdd ? "orange" : "green"}
